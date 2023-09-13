@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6b6b;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
+}
+
+.container {
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+/*    flex-wrap: wrap;*/
+    padding: 20px;
+/*    background-color: blueviolet;*/
+}
+
+.image-container {
+    margin: 20px;
+/*    background-color: red;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    width: 30%;
+/*    max-width: 30%;*/
+    height: auto;
+    border-radius: 10px;
+}
+
+.heart-icon {
+    font-size: 48px;
+    color: #ff6b6b;
+}
+
+.love-text {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #333;
+}
